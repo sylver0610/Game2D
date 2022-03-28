@@ -19,7 +19,7 @@ int main() {
 	circle.setOrigin(circle.getRadius(), circle.getRadius());*/
 	
 
-	while (game.running()) {
+	while (game.running() && !game.getEndGame()) {
 
 		game.update();
 
